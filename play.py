@@ -54,6 +54,7 @@ def effect(sounds,chan):
 
 t2 = threading.Thread(target=effect, args=('theme.mp3',0,))
 t2.start()
+
 while running:
 
     for event in pg.event.get():
@@ -96,7 +97,10 @@ while running:
         y_pos = 0
         x_pos = random.randint(10, width - 20)
         miss+= 1
-        score -= 20
+        if score > 0:
+            score -= 20
+        if score < 0:
+            score = 0
 
     if ball.y >= player_pos.y - 50 and \
        ball.y <= player_pos.y and \
