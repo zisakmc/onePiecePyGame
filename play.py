@@ -3,6 +3,8 @@ import random
 import os
 import threading
 
+# INFO: This code is a little bit messy  
+# TODO: Optimize code or cleaning
 pg.init()
 
 screen = pg.display.set_mode((800, 800))
@@ -125,7 +127,7 @@ while running:
     screen.blit(sunny, ball) 
     keys = pg.key.get_pressed()
 
-
+    # TODO: need to implement more function
     # if keys[pg.K_k]:
     #     player_pos.y -= 300 * dt
     # if keys[pg.K_j]:
