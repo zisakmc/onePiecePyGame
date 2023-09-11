@@ -96,6 +96,7 @@ while running:
         y_pos = 0
         x_pos = random.randint(10, width - 20)
         miss+= 1
+        score -= 20
 
     if ball.y >= player_pos.y - 50 and \
        ball.y <= player_pos.y and \
