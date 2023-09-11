@@ -12,9 +12,23 @@ pip install pygame
 
 ## To run
 
+1. You can make venv for python
+
+```
+python -m venv {projectName}
+cd {projectName}
+```
+
+2. git clone this repo
+   and copy everything into the {projectName} directory and run.
+
 ```
 python play.py
 ```
+
+If your using IDE or something just copy paste everyting from this code and resources. All sound effect is available in the resource directory.
+
+Make sure they are in the right path.
 
 #### control
 
