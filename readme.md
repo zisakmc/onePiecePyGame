@@ -18,6 +18,8 @@ python play.py
 
 ## Demo gameplay
 
-<video controls = "true" allowfullscreen="true">
- <source src="resource/demo.mp4" type="video/mp4">
- </video>
+
+
+https://github.com/zisakmc/onePiecePyGame/assets/97948238/c2679b1f-d810-47ff-9129-dd92cbabbce6
+
+
